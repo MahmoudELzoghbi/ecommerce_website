@@ -1,0 +1,47 @@
+:root {
+    --main-font: 'Open Sans';
+    --heading-font: 'Open Sans';
+    --main-color: #888;
+    --heading-color: #253237;
+    --heading-font-weight: 600;
+    --link-hover-color: #4fb68d;
+    --link-color: #253237;
+    --button-color: #fff;
+    --button-hover-color: #fff;
+    --button-bg-color: #253237;
+    --button-bg-hover-color: #4fb68d;
+    --rowspace:60px;
+}
+
+button,
+input,
+textarea {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    margin-bottom: 0 !important;
+}
+a{
+    text-decoration: none;
+    color:#555 ;
+}
+a:hover {
+    color: #4fb68d !important;
+}
+img {
+    object-fit: cover;
+    max-width: 100%;
+    height: 100%;
+}
+.pd_2{
+    padding: 60px 0;
+}

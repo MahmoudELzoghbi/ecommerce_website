@@ -1,0 +1,24 @@
+
+@import url("base/font.css");
+@import url("base/base.css");
+@import url("layout/navbar.css");
+@import url("layout/slider.css");
+@import url(layout/main.css);
+@import url(./responsive/responsive.css);
+@import url(./components/sallers.css);
+@import url(./components/category.css);
+@import url(./components/shopping.css);
+@import url(./components/moudleGroup.css);
+@import url(layout/footer.css);
+@import url(layout/about.css);
+@import url(layout/contact.css);
+@import url(overide/preview.css);
+
+
+
+
+
+
+
+
+

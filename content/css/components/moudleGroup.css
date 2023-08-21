@@ -1,0 +1,96 @@
+.navCatogrey_row {
+    justify-content: space-between;
+}
+
+
+.navCatogrey_box{
+    display: flex;
+    width: 96px;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    background-color: hsla(0,0%,100%,.8);   
+     box-shadow: 5px 5px 20px #73727269;
+    border-radius: 0.5rem;
+    position: relative;
+    margin-bottom: 10px;
+}
+.box_svgMune{
+    background-color: #E80013;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px;
+    border-radius: 22px;
+    display: block;
+
+}
+.navCatogrey_box .box_svgMune>svg{
+    color:#fff;
+    background-size: 30px;
+    font-size: 20px;
+
+}
+.box_titleNAv {
+    position: absolute;
+    top: 60%;
+    font-size: 16px;
+    color: var(---heading-color-);
+    font-weight: 600;
+
+}
+.navCatogrey_box:hover{
+    background-color:#E80013 ;
+}
+.navCatogrey_box:hover .box_svgMune{
+    background-color: #fff;
+}
+.navCatogrey_box:hover .box_svgMune>svg{
+    color: #333;
+}
+.navCatogrey_box:hover .box_titleNAv>a {
+    color: #fff;
+}
+/* start cunt dwon  */
+.countDown{
+background-image: url(../../assets/image/ecolife/img2-middle-store1.jpg);
+background-size: cover;
+background-position: center;
+height: 40vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.countDown .text-countdown{
+    font-size: 30px ;
+    margin: auto;
+    color: #fff;
+    font-weight: 400;
+}
+.countDown .text-countdown>span{
+    display: block;
+    color: #E80013;
+    
+}
+
+.countdown-box .inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.countdown-box .inner .box{
+    background-color: #333;
+    margin-right: 30px;
+    width: 69px;
+    text-align: center;
+    border: none;
+    border-radius: 14px;
+}
+.countdown-box .inner b{
+    display: block;
+}
+.countdown-box .inner b,.countdown-box .inner span{
+    color: #fff;
+}

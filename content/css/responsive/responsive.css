@@ -1,0 +1,79 @@
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    .nav-item>a:hover::before{
+        width: 20px;
+    
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  
+    /* start responsive navbar */
+
+    .nav-item>a:hover::before{
+        width: 20px;
+    
+    }
+    .icon{
+        display: none;
+    }
+    .parant_icon{
+        justify-content: flex-start;
+    }
+    .btn-group{
+        margin-left: 0;
+    }
+    .navbar_mune{
+        width: 380px;
+    }
+    .carousel-dark .carousel-caption {
+        margin-left: 30px;
+    }
+    /* edit icon nav mune  */
+    .navbar-toggler-icon{
+    color: #222;
+    font-size: 30px;
+
+    }
+    /* --///////------ */
+    /* start slider  */
+    .w-100 {
+        height: 250px;
+    }
+    .xs-heading-sub {
+        font-size: 16px;
+    }
+    .heading_slider{
+        font-size: 14px;
+    }
+    .text_slider{
+        font-size: 12px;
+        opacity: 0.5;
+        margin-left: 35px;
+    }
+    /* --///////------ */
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .nav-item>a:hover::before{
+        width: 20px;
+    
+    }
+    
+
+    /* section ads */
+    .shopping_ads {
+        display: none;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .nav-item>a:hover::before{
+        width: 20px;
+    
+    }
+}

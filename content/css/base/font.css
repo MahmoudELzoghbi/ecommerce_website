@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Pacifico&display=swap');
+body{
+    font-weight: 400;
+    color: #888;
+    font-family: 'Open Sans', sans-serif;  
+    line-height: 2.4rem;
+    width: 100%;
+    text-transform: capitalize;
+}

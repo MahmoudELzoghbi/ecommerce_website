@@ -1,0 +1,110 @@
+.text-header{
+    background-image: url(../../assets/image/aboutUs/5.jpg) ;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.text-header>.container{
+display: flex;
+justify-content: left;
+align-items: center;
+height: 100%;
+}
+.subtitle_section{
+    color:#80b500;
+    text-transform: uppercase;
+
+}
+.section_title {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+/* section area */
+.aboutUs_area{
+    padding-bottom: 60px;
+}
+.caption_area span {
+    color:#80b500;
+}
+
+
+/*  starrt feature_area */
+.feature_area{
+    background-color: #F7F5EB;
+}
+.feature_heading{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0 ;
+}
+.feature_heading .info_feature span {
+color: #80b500;
+}
+
+.row_area{
+    justify-content: space-between;
+}
+.feature-icon{
+    background-color: #fff;
+    padding: 38px 30px 10px;
+    
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;  
+}
+.image_icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.image_icon h3{
+font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+}
+.image_icon h3:hover{
+    color: #80b500;
+}
+.feature_area{
+    padding: 50px 0 ;
+}
+.team .title{
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.row_team{
+   justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.card{
+    margin-right: 9px;
+    transition: all 0.4s;
+
+}
+.card .card-body{
+    text-align: center;
+}
+.card .card-body .card-text{
+    color: #80b500;
+    font-size: 16px;
+
+}
+.card .card-body h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.card:hover{
+    box-shadow: 0 16px 32px 0 rgba(7, 28, 31, 0.1);
+}

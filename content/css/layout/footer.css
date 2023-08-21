@@ -1,0 +1,134 @@
+
+/* icon call in footer */
+footer{
+    background-color: #F6F6F6;
+}
+.footer_icon--call{
+    background: url(../../assets/image/menu/icon_footer_phone.png) left center no-repeat;    padding-left: 52px;
+    text-align: left;
+    margin-bottom: 10px;
+    height: 59px;
+}
+.logo_footer{
+    margin-bottom: 30px;
+}
+.info_footer p{
+    font-size: 14px;
+    color: var(--heading-color);
+}
+.footer_icon--call p,.footer_icon--call span{
+    color: var(--heading-color);
+    line-height: 1.2;
+    padding-left: 20px;
+    transition: all 300ms ease-in-out;
+}
+.footer_icon--call span:hover{
+    color: var(--link-hover-color);
+}
+.footericon_social .social_footer {
+    font-size: 22px;
+    color: #383839;
+    margin-right: 15px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+.footericon_social .social_footer:hover{
+    color: var(--link-hover-color);
+    transition: all 300ms ease-in-out;
+}
+.footer_map{
+    background-color: #EFEFEF;
+}
+.footer_map--heading h4{
+    font-size: 16px;
+    color: var(--heading-color);
+    position: relative;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+.footer_map--heading>h4::before{
+    content: "";
+    width: 65px;
+    height: 2px;
+    background: var(--link-hover-color);
+    left: 0;
+    bottom: -1px;
+    position: absolute;
+}
+.footer_map--heading>h4::after{
+    content: "";
+    width: 3.5rem;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+
+
+.footer_map--heading ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer_map--heading ul li a{
+    font-size: 14px;
+    transition: all 300ms ease-in-out;
+
+}
+.footer_map--heading ul li:hover a{
+    color: var(--link-hover-color);
+    margin-left: 7px;
+}
+.copy_right{
+    padding: 0;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+}
+.input_footer{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    text-align: center;
+}
+.input_footer .btn_input{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    padding: 10px 30px;
+    padding-right: 120px;
+    font-size: 18px;
+    color: #b1b1b1;
+    border-radius: 30px;
+    background: #fff;
+    text-align: left;
+    display: block;
+    margin: auto;
+}
+.input_footer .btn_footer{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-shadow: none;
+    box-shadow: none;
+    border: 0;
+    background: var(--button-bg-color);
+    color: #fff;
+    line-height: 50px;
+    padding: 0 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: normal;
+    border-radius: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.copy_right span{
+    color: rgb(214, 63, 63);
+}
